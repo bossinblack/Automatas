@@ -2,7 +2,7 @@
 #ARCHIVO4.TXT
 
 import re
-regex = '^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$'
+regex = '^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$'    #explicar
 
 f = open("./archivo4.txt","r")
 for cadena in f:
